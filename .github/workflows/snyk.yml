@@ -22,8 +22,8 @@ jobs:
         run: npm install -g snyk
 
 
-      - name: Authenticate Snyk
-        run: snyk auth 
+      - name: Debug Snyk Installation
+        run: snyk --version
 
 
       - name: Snyk scan
